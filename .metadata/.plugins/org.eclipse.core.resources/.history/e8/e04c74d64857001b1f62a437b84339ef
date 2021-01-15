@@ -1,0 +1,55 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Scanner prices = new Scanner(System.in);
+		Scanner percent = new Scanner(System.in);
+		
+		String princesdataString = prices.next();
+		String percentdataString = percent.next();*/
+		
+		/*Double[] princesdata = new Double[princesdataString.split(",").length];
+	    Double[] percentdata = new Double[princesdataString.split(",").length];
+	    String[] pricess = princesdataString.split(",");
+	    String[] percents = percentdataString.split(",");
+	    String[] descriptiondata = new String[princesdata.length];
+	    Scanner descriptioninput = new Scanner(System.in);
+	    for (int i = 0; i < princesdata.length; i++) {
+			princesdata[i] = Double.parseDouble(pricess[i]);
+			percentdata[i] = Double.parseDouble(percents[i]);
+			//descriptiondata[i] = descriptioninput.next();
+		}
+		for (int i = 0; i < princesdata.length; i++) {
+			System.out.print(princesdata[i] + ",");
+			//System.out.print(percentdata[i]+ ",");
+			//System.out.print(descriptiondata[i] + ",");
+		}*/
+		Double[]princesdata = {110.0,95.0,70.0};
+		Double[]percentdata = {10.0,5.0,0.0};
+		String[]descriptiondata = {"más alto que en la tienda", 
+				"más bajas que en la tienda", 
+				"igual que en la tienda"};
+		//ArrayList<Double> results = new ArrayList();
+		Double x = 0.0;
+		Double total = 0.0;
+		for (int i = 0; i < princesdata.length; i++) {
+			if (descriptiondata[i].contains("alto")) {
+				x = princesdata[i] / (1 + percentdata[i] / 100);
+			}
+			if (descriptiondata[i].contains("bajas")) {
+				x = -princesdata[i] / (1 - percentdata[i] / 100);
+			}
+			if (descriptiondata[i].contains("igual")) {
+				x = 0.0;
+			}
+			total += x * (percentdata[i] / 100);
+			//results.add(x);
+		}
+		
+		
+	}
+
+}

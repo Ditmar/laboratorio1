@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner prices = new Scanner(System.in);
+		Scanner percent = new Scanner(System.in);
+		
+		String princesdataString = prices.next();
+		String percentdataString = percent.next();
+		Double[] princesdata = new Double[princesdataString.length()];
+	    Double[] percentdata = new Double[percentdataString.length()];
+						
+		for (int i = 0; i < princesdata.length; i++) {
+			princesdata[i] = Double.parseDouble(princesdataString[i]);
+		}
+		
+		
+		Scanner description = new Scanner(System.in);
+		
+		
+	}
+
+}

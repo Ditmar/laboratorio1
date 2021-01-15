@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("Hola mundo");
+		Scanner input = new Scanner(System.in);
+		Integer year = input.nextDouble()();
+		
+		Integer century = (year / 100) ;
+		System.out.print(century);
+	}
+
+}

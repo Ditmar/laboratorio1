@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		String inputdata = input.next();
+		String[] cadena = inputdata.split(",");
+		//convert to int;
+		for () {}
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		Integer year = input.nextInt();
+		Double century = Math.ceil(year / 100) ;
+		Integer output = (Integer)century;
+		System.out.print();
+	}
+
+}

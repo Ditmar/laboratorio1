@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/Users/Ditmar/progra2021/.metadata/.plugins/org.eclipse.jdt.core
+3424722907.index
+1428704865.index
+3139841869.index
+625130222.index

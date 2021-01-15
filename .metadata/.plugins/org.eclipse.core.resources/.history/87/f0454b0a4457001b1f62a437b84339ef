@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner prices = new Scanner(System.in);
+		Scanner percent = new Scanner(System.in);
+		
+		String princesdata = prices.next();
+		String percentdata = percent.next();
+		
+		for (int i = 0; i < princesdata.length; i++) {
+			numbers[i] = Integer.parseInt(cadena[i]);
+		}
+		
+		
+		Scanner description = new Scanner(System.in);
+		
+		
+	}
+
+}
